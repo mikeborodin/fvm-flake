@@ -20,7 +20,7 @@
             owner = "leoafarias";
             repo = "fvm";
             rev = "7bb641e4d7e9107a56b71102b47957d4aafc3650";
-            sha256 = "i7sJRBrS5qyW8uGlx+zg+wDxsxgmolTMcikHyOzv3Bs="
+            hash = "sha256-i7sJRBrS5qyW8uGlx+zg+wDxsxgmolTMcikHyOzv3Bs="
           };
 
           buildInputs = [ dart ];
