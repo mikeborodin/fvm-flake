@@ -15,12 +15,12 @@
       packages = {
         default = pkgs.stdenv.mkDerivation {
           pname = "fvm";
-          version = "0.1.0";
+          version = "3.2.1";
           src = pkgs.fetchFromGitHub {
             owner = "leoafarias";
             repo = "fvm";
-            rev = "main";
-            sha256 = null;
+            rev = "7bb641e4d7e9107a56b71102b47957d4aafc3650";
+            sha256 = "";
           };
 
           buildInputs = [ dart ];
